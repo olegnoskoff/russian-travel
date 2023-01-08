@@ -13,6 +13,9 @@
   }
 }
 
+
+/* левый отступ для эрана 768px */
+
 @media screen and (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
