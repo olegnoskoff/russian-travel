@@ -7,17 +7,14 @@
   margin-top: 8px;
 }
 
-@media screen and (max-width: 580px) {
-  .lead__caption {
-    padding-left: 16px;
-  }
-}
-
-
-/* левый отступ для эрана 768px */
-
 @media screen and (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .lead__caption {
+    padding-left: 16px;
   }
 }
