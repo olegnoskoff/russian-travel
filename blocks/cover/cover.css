@@ -21,7 +21,7 @@
   background-color: #2a2c2f;
   opacity: 0.3;
   transition: opacity 0.2s ease;
-  z-index: 1;
+  z-index: -1;
 }
 
 .cover:hover::before {
@@ -36,15 +36,19 @@
 
 @media screen and (min-width: 768px) {
   .cover {
-    min-height: 480px;
+    max-height: 480px;
     margin-top: 90px;
     margin-bottom: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    min-height: 640px;
+    max-height: 640px;
     margin-top: 92px;
   }
 }

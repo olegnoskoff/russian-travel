@@ -1,6 +1,7 @@
 .header__links {
   display: grid;
-  grid-template-columns: repeat(2, min-content);
+  grid-template-columns: min-content;
+  grid-auto-flow: column;
   gap: 18px;
   list-style: none;
   margin: 0;
